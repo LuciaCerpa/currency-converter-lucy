@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.overlay{
+    position: absolute;           
+    z-index: -1;    
+    height: 100%;
+    width: 85%;    
+    background-image: url(https://www.ismaeldelacruzfinanzas.com/wp-content/uploads/2017/11/Divisas-2-s.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    
+}
+
+.wrapper{
+    position: relative;
+    width: auto;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 7px;  
+    background-color: rgba(242, 238, 238, 0.583);  
+    height: 450px;   
+}
+
+.wrapper header{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper form{
+    margin: 10px;    
+}
+
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input{
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    background-color: rgba(243, 248, 248, 0.709);
+    color: rgb(0, 30, 255);
+}
+
+form input:focus{
+    border: 2px solid blue;
+}
+
+form .drop-list{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop-list .select-box{
+    display: flex;
+    height: 45px;
+    width: 115px;  
+    border-radius: 5px;  
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    background-color: rgba(244, 237, 237, 0.493);
+}
+
+.select-box select{
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+    color: blue;    
+}
+
+.select-box select::-webkit-scrollbar{
+    width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+
+.select-box img{
+    max-width: 25px;
+}
+
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+form .exchange-rate{
+    font-size: 17px;
+    margin: 20px 0 30px;
+    color: blue;
+}
+
+.rates-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exchange-rate1, .exchange-rate2{
+    font-style: italic;
+    color: rgb(155, 28, 28);
+}
+
+form button{
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: blue;
+    transition: 0.3s ease;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+form button:hover{
+    background:  #4534fe;
+}
